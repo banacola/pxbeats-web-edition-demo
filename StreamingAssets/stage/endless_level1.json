@@ -1,0 +1,25 @@
+{
+  "baseBpm": 120,
+  "boss": "BOSS_1",
+  "wave1": {
+    "loop": "INFINITE",
+    "row1": ["list1"],
+    "row2": ["0","0","0","0"]
+  },
+  "list1": {
+    "ATTACK_BOSS_NORMAL_1": 1
+  },
+  "upgrade": [
+    "ATTACK_BOSS_NORMAL_1"
+    ],
+  "help": {
+    "baseBpm": "BASE BPM",
+    "deltaBpm": "DELTA BPM",
+    "boss": "BOSS ID",
+    "loop": "NUMBERS OR INFINITE",
+    "wave": "ELEMENT IN ARRAY",
+    "row": "ELEMENT IN ROW",
+    "list": "ELEMENT LIST WITH PRIORITY",
+    "upgrade": "ELEMENT CANDIDATES FOR UPGRADE"
+  }
+}

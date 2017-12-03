@@ -1,0 +1,49 @@
+{
+  "title": "Croatian Rhapsody",
+  "author": "Tonci Huljic",
+  "baseBpm": 120,
+  "boss": "BOSS_1",
+  "wave1": {
+    "loop": "INFINITE",
+    "row1": ["note1"]
+  },
+  "note1": [
+    "D5,D#5,C5,D5,D#5,C5,G4,G#4,F4,G4,G#4,F4",
+    "A4,B4,G4,G4,D4,D#4,C4,D4,D#4,C4",
+    "D5,D#5,C5,G5,C5,G4,G#4,F4,C5,F4",
+    "A4,B4,G4,G4,D4,D#4,C4,D4,D#4,C4",
+    "D3,D#3,C3,G3,C3,D3,D#3,C3,G3,C3",
+    "D3,D#3,C3,C3,B2,C3,D3,D#3,C3",
+    "D3,D#3,C3,G3,C3,D3,D#3,C3,G3,C3",
+    "D3,D#3,C3,C3,B2,C3,D3,D#3,C3",
+    "D#4,C4,D4,D#4,C4,D#4,F4,D#4,D4,C4",
+    "D4,B3,C4,D4,B3,D4,D#4,D4,C4,G4",
+    "D#4,C4,D4,D#4,C4,D#4,F4,D#4,D4,C4",
+    "G4,B3,D#4,D4,C4,G4,C4",
+    "D#5,C5,D5,D#5,C5,D#5,F5,D#5,D5,C5",
+    "D5,B4,C5,D5,B4,D5,D#5,D5,C5,G5",
+    "D#5,C5,D5,D#5,C5,D#5,F5,D#5,D5,C5",
+    "G5,B4,D#5,D5,C5,G5,C5",
+    "G4,C4,D#4,F4,G4,A#4,G#4,G4,F4,D#4",
+    "F4,D4,D#4,F4,G#4,G4,F4,D#4,D4",
+    "D#4,C4,D4,D#4,G4,F4,D#4,D4,C4",
+    "D4,B3,D#4,D4,C4,G4,C5",
+    "G4,C4,D#4,F4,G4,A#4,G#4,G4,G#4,C5",
+    "A#4,C5,A#4,G#4,G4,F4,D#4,D4",
+    "D#4,C4,D4,D#4,G4,F4,D#4,D4,C4",
+    "D4"
+  ],
+  "help": {
+    "title": "TITLE",
+    "baseBpm": "BASE BPM",
+    "deltaBpm": "DELTA BPM",
+    "boss": "BOSS ID",
+    "mode": "STATIC OR RANDOM",
+    "loop": "NUMBERS OR INFINITE",
+    "wave": "ELEMENT IN ARRAY",
+    "row": "ELEMENT IN ROW",
+    "list": "ELEMENT LIST WITH PRIORITY, NO SEQUENCE",
+    "upgrade": "ELEMENT CANDIDATES FOR UPGRADE",
+    "note": "MUSICAL NOTE IN SEQUENCE"
+  }
+}

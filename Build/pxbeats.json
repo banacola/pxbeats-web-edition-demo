@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "pxbeats.data.unityweb",
+"asmCodeUrl": "pxbeats.asm.code.unityweb",
+"asmMemoryUrl": "pxbeats.asm.memory.unityweb",
+"asmFrameworkUrl": "pxbeats.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

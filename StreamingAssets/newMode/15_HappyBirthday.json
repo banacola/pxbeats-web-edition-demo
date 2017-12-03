@@ -1,0 +1,29 @@
+{
+  "title": "Happy Birthday",
+  "author": "noname",
+  "baseBpm": 120,
+  "boss": "BOSS_1",
+  "wave1": {
+    "loop": "INFINITE",
+    "row1": ["note1"]
+  },
+  "note1": [
+    "G3,G3,A3,G3,C4,B3",
+    "G3,G3,A3,G3,D4,C4",
+    "G3,G3,G4,E4,C4,B3,A3",
+    "F4,F4,E4,C4,D4,C4"
+  ],
+  "help": {
+    "title": "TITLE",
+    "baseBpm": "BASE BPM",
+    "deltaBpm": "DELTA BPM",
+    "boss": "BOSS ID",
+    "mode": "STATIC OR RANDOM",
+    "loop": "NUMBERS OR INFINITE",
+    "wave": "ELEMENT IN ARRAY",
+    "row": "ELEMENT IN ROW",
+    "list": "ELEMENT LIST WITH PRIORITY, NO SEQUENCE",
+    "upgrade": "ELEMENT CANDIDATES FOR UPGRADE",
+    "note": "MUSICAL NOTE IN SEQUENCE"
+  }
+}

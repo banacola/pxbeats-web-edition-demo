@@ -1,0 +1,41 @@
+{
+  "baseBpm": 120,
+  "boss": "BOSS_4",
+  "wave1": {
+    "mode": "STATIC",
+    "loop": "1",
+    "row1": ["ENEMY1_1","ENEMY1_1","ENEMY1_1","ENEMY1_1"],
+    "row2": ["ENEMY1_1","ENEMY1_1","ENEMY1_1","ENEMY1_1"],
+    "row3": ["0","0","0","0"],
+    "row4": ["0","0","RECOVERY_HP_SMALL_1","0"],
+    "row5": ["0","0","0","0"],
+    "row6": ["ENEMY1_1","ENEMY1_1","ENEMY1_1","ENEMY1_1"],
+    "row7": ["ENEMY1_1","ENEMY1_1","ENEMY1_1","ENEMY1_1"],
+    "row8": ["ENEMY1_1","ENEMY1_1","ENEMY1_1","ENEMY1_1"],
+    "row9": ["0","0","0","0"],
+    "row10": ["0","0","RECOVERY_HP_MAX_1","0"],
+    "row11": ["0","0","0","0"]
+  },
+  "wave2": {
+    "mode": "STATIC",
+    "loop": "INFINITE",
+    "row1": ["0","ENEMY1_1","0","0"],
+    "row2": ["0","0","0","0"],
+    "row3": ["0","ATTACK_BOSS_FIRE_1","ATTACK_BOSS_FIRE_1","0"],
+    "row4": ["0","0","0","0"],
+    "row5": ["0","0","ENEMY1_1","0"],
+    "row6": ["0","0","0","0"],
+    "row7": ["0","ATTACK_BOSS_FIRE_1","ATTACK_BOSS_FIRE_1","0"],
+    "row8": ["0","0","0","0"],
+    "row9": ["0","ENEMY1_1","ENEMY1_1","0"],
+    "row10": ["0","0","0","0"],
+    "row11": ["ATTACK_BOSS_FIRE_1","0","0","ATTACK_BOSS_FIRE_1"],
+    "row12": ["0","0","0","0"],
+    "row13": ["0","ENEMY1_1","ENEMY1_1","0"],
+    "row14": ["0","0","0","0"],
+    "row15": ["ATTACK_BOSS_FIRE_1","0","0","ATTACK_BOSS_FIRE_1"],
+    "row16": ["0","0","0","0"],
+    "row17": ["0","0","RECOVERY_HP_SMALL_1","0"],
+    "row18": ["0","0","0","0"]
+  }
+}

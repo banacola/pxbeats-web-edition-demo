@@ -1,0 +1,51 @@
+{
+  "title": "Abayer",
+  "author": "noname",
+  "baseBpm": 120,
+  "boss": "BOSS_1",
+  "wave1": {
+    "loop": "INFINITE",
+    "row1": ["note1"]
+  },
+  "note1": [
+    "D3,F3,G3,D3,F3,G3,D3",
+    "D3,C3,D3,D3,F3,A3",
+    "D4,C4,D4,A3,C4,G3,F3,D3",
+    "A3,D4,C4,D4,A3,C4,G3",
+    "D3,F3,G3,C4,A3,G3,F3,G3,D3,C3,F3,D3,A4",
+    "A3,D4,C4,D4,A3,C4,G3,D3,F3,G3",
+    "C4,A3,G3,F3,G3,D3,C3,F3,D3,F4",
+    "D3,F3,G3,D3,F3,G3,D3,A3,D4",
+    "F#3,A3,B3,F#3,A3,B3,F#3,B3,F#4",
+    "A4,C5,D5,A4,C5,D5,A4,A4,G4,A4,A4,C5,E5",
+    "A5,G5,A5,E5,G5,D5,C5,A4",
+    "E5,A5,G5,A5,E5,G5,D5,A4,C5,D5",
+    "G5,E5,D5,C5,D5,A4,G4,C5,A4,A5",
+    "E4,A4,G4,A4,E4,G4,D4,A3,C4,D4",
+    "G4,E4,D4,C4,D4,A3,G3,C4,A3",
+    "G3,E3,A3,G3,E3,A3,G3,E3,A3",
+    "G3,E3,D3,F3,G3,D3,F3,G3,D3",
+    "D3,C3,D3,D3,F3,A3,D4,C4,D4,A3,C4,G3,F3,D3",
+    "A3,D4,C4,D4,A3,C4,G3,D3,F3,G3",
+    "C4,A3,G3,F3,G3,D3,C3,F3,D3,A4",
+    "A3,D4,C4,D4,A3,C4,G3,D3,F3,G3",
+    "C4,A3,G3,F3,G3,D3,C3,F3,D3",
+    "D4,C4,A3,G3,F3,G3,D3",
+    "C3,F3,D3,C3,F3,D3,C3,F3,D3,C3,F3,D3",
+    "D2",
+    "D1"
+  ],
+  "help": {
+    "title": "TITLE",
+    "baseBpm": "BASE BPM",
+    "deltaBpm": "DELTA BPM",
+    "boss": "BOSS ID",
+    "mode": "STATIC OR RANDOM",
+    "loop": "NUMBERS OR INFINITE",
+    "wave": "ELEMENT IN ARRAY",
+    "row": "ELEMENT IN ROW",
+    "list": "ELEMENT LIST WITH PRIORITY, NO SEQUENCE",
+    "upgrade": "ELEMENT CANDIDATES FOR UPGRADE",
+    "note": "MUSICAL NOTE IN SEQUENCE"
+  }
+}

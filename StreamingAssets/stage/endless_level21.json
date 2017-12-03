@@ -1,0 +1,110 @@
+{
+  "baseBpm": 120,
+  "boss": "BOSS_21",
+  "wave1": {
+    "loop": "INFINITE",
+    "row1": ["list1","list1"],
+    "row2": ["0","0","0","0"],
+    "row3": ["list3","list4","list3","list3"],
+    "row4": ["0","0","0","0"],
+    "row5": ["list1","list1"],
+    "row6": ["0","0","0","0"],
+    "row7": ["list3","list3","list4","list3"],
+    "row8": ["0","0","0","0"],
+    "row9":  ["list1","list1"],
+    "row10": ["0","0","0","0"],
+    "row11": ["list4","list3","0","list3"],
+    "row12": ["0","0","0","0"],
+    "row13":  ["list1","list1"],
+    "row14": ["0","0","0","0"],
+    "row15": ["list3","0","list3","list4"],
+    "row16": ["0","0","0","0"],
+    "row17":  ["list1","list1"],
+    "row18": ["0","0","0","0"],
+    "row19": ["list4","list3","list3","0"],
+    "row20": ["0","0","0","0"],
+    "row21":  ["list1","list1"],
+    "row22": ["0","0","0","0"],
+    "row23": ["0","list3","list3","list4"],
+    "row24": ["0","0","0","0"],
+    "row25": ["list2"],
+    "row26": ["0","0","0","0"]
+  },
+  "list1": {
+    "ATTACK_BOSS_NORMAL_1": 1,
+    "ATTACK_BOSS_FIRE_1": 1,
+    "ATTACK_BOSS_LIGHTING_1": 1
+  },
+  "list2": {
+    "ATTACK_BOSS_NORMAL_1": 6,
+    "ATTACK_BOSS_FIRE_1": 6,
+    "ATTACK_BOSS_LIGHTING_1": 6,
+    "RECOVERY_HP_SMALL_1": 1,
+    "RECOVERY_HP_NORMAL_1": 1,
+    "RECOVERY_HP_LARGE_1": 1,
+    "RECOVERY_HP_HUGE_1": 1,
+    "RECOVERY_HP_MAX_1": 1,
+    "ENEMY1_9": 6,
+    "ENEMY2_9": 6,
+    "ENEMY3_9": 6,
+    "ENEMY4_9": 6
+  },
+  "list3": {
+    "ENEMY1_8": 1,
+    "ENEMY2_8": 1,
+    "ENEMY3_8": 1,
+    "ENEMY4_9": 1
+  },
+  "list4": {
+    "ATTACK_FIRE_ENEMY_CROSS_1": 1,
+    "ATTACK_LIGHTNING_ENEMY_CROSS_1": 1
+  },
+  "list5": {
+    "ATTACK_FIRE_ENEMY_HORIZONTAL_1": 1,
+    "ATTACK_LIGHTNING_ENEMY_HORIZONTAL_1": 1
+  },
+  "list6": {
+    "ATTACK_FIRE_ENEMY_VERTICAL_1": 1,
+    "ATTACK_LIGHTNING_ENEMY_VERTICAL_1": 1
+  },
+  "list7": {
+    "ATTACK_FIRE_ENEMY_CROSS_ALL_1": 1,
+    "ATTACK_FIRE_ENEMY_ALL_1": 1,
+    "ATTACK_LIGHTNING_ENEMY_CROSS_ALL_1": 1,
+    "ATTACK_LIGHTNING_ENEMY_ALL_1": 1
+  },
+  "upgrade": [
+    "ATTACK_BOSS_NORMAL_1",
+    "ATTACK_BOSS_FIRE_1",
+    "ATTACK_BOSS_LIGHTING_1",
+    "ATTACK_FIRE_ENEMY_CROSS_1",
+    "ATTACK_FIRE_ENEMY_HORIZONTAL_1",
+    "ATTACK_FIRE_ENEMY_VERTICAL_1",
+    "ATTACK_FIRE_ENEMY_CROSS_ALL_1",
+    "ATTACK_FIRE_ENEMY_ALL_1",
+    "ATTACK_LIGHTNING_ENEMY_CROSS_1",
+    "ATTACK_LIGHTNING_ENEMY_HORIZONTAL_1",
+    "ATTACK_LIGHTNING_ENEMY_VERTICAL_1",
+    "ATTACK_LIGHTNING_ENEMY_CROSS_ALL_1",
+    "ATTACK_LIGHTNING_ENEMY_ALL_1",
+    "ATTACK_ENEMY_NORMAL_1",
+    "RANGE_EXPANSION_1",
+    "HP_MAX_1",
+    "RECOVERY_HP_SMALL_1",
+    "RECOVERY_HP_NORMAL_1",
+    "RECOVERY_HP_LARGE_1",
+    "RECOVERY_HP_HUGE_1",
+    "RECOVERY_HP_MAX_1",
+    "COMBO_MAX_1"
+    ],
+  "help": {
+    "baseBpm": "BASE BPM",
+    "deltaBpm": "DELTA BPM",
+    "boss": "BOSS ID",
+    "loop": "NUMBERS OR INFINITE",
+    "wave": "ELEMENT IN ARRAY",
+    "row": "ELEMENT IN ROW",
+    "list": "ELEMENT LIST WITH PRIORITY",
+    "upgrade": "ELEMENT CANDIDATES FOR UPGRADE"
+  }
+}

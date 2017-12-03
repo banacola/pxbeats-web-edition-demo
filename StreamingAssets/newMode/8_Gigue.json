@@ -1,0 +1,43 @@
+{
+  "title": "Gigue",
+  "author": "Bach",
+  "baseBpm": 120,
+  "boss": "BOSS_1",
+  "wave1": {
+    "loop": "INFINITE",
+    "row1": ["note1"]
+  },
+  "note1": [
+    "D4,D#4,D4,C4,A#3,A3,G3,F#3,A3,D3,C3,A#2,A2",
+    "A#2,D3,G3,A2,G3,F#3,G3,A#3,A3,A#3,D4,C4",
+    "D4,E4,F4,E4,F4,G4",
+    "A4,G4,F4,G4,F4,E4,F4,G4,A4,D4",
+    "C4,A#3,C4,G3,D4,A#3,F#3,C4",
+    "A3,A#3,C4,D4,A#3,C4,D4",
+    "E4,F#4,G4,A4",
+    "G4,F4,E4,F4",
+    "D#4,D4,C4,D4",
+    "C4,A#3,A3,A#3",
+    "F3,A3,A3,G3,A3,E3,G3",
+    "F3,G3,A3,G3,A3,A#3",
+    "A3,D4,F4,G3,G4,E4,F4,A4,G4,A4",
+    "A3,C#4,B3,C#4,E4,D4,E4,E3,G3,F3",
+    "G3,A#3,A3,A#3,C#3,E3,D3,E3,G3,F3",
+    "G3,A#3,A3,A#3,A3,G3,C#4,A#3,A3,D4,A3,G3",
+    "E4,A3,G3,F3,G3,E3,F3,E3,D3,G3,E3,D3",
+    "A3,E3,D3,A#3,E3,D3,C#3,D3,E3,A2"
+  ],
+  "help": {
+    "title": "TITLE",
+    "baseBpm": "BASE BPM",
+    "deltaBpm": "DELTA BPM",
+    "boss": "BOSS ID",
+    "mode": "STATIC OR RANDOM",
+    "loop": "NUMBERS OR INFINITE",
+    "wave": "ELEMENT IN ARRAY",
+    "row": "ELEMENT IN ROW",
+    "list": "ELEMENT LIST WITH PRIORITY, NO SEQUENCE",
+    "upgrade": "ELEMENT CANDIDATES FOR UPGRADE",
+    "note": "MUSICAL NOTE IN SEQUENCE"
+  }
+}
